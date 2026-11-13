@@ -1,8 +1,8 @@
 package jwtopenssl
 
 import (
-	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/acronis/openssl"
+	"github.com/golang-jwt/jwt/v4"
 )
 
 type signingMethodRSA struct {

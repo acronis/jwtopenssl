@@ -3,8 +3,8 @@ package jwtopenssl
 import (
 	"errors"
 
-	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/acronis/openssl"
+	"github.com/golang-jwt/jwt/v4"
 )
 
 type signingMethodHMAC struct {
