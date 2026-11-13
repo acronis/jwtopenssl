@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly
+    ignore:
+      # Newer releases raise the go directive above what consumers use.
+      - dependency-name: golang.org/x/sys
